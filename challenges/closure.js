@@ -1,7 +1,7 @@
 // ==== Closures ====
 
 /* Task 1: Study the code below and explain in your own words why nested function can access the variable internal. */
-
+//Because of lexical scoping. Both the variable and nestedFunction are both defined inside of myFunction
 const external = "I'm outside the function";
 
 function myFunction() {
